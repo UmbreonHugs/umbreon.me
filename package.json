@@ -1,0 +1,17 @@
+{
+  "name": "umbreon-me",
+  "version": "1.1.0",
+  "description": "umbreon.me website portfolio",
+  "main": "index.js",
+  "repository": "https://github.com/UmbreonHugs/umbreon.me.git",
+  "author": "UmbreonHugs",
+  "license": "Apache License 2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "eslint": "^5.9.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "sass": "^1.14.3"
+  }
+}
