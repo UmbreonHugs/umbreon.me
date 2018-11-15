@@ -1,0 +1,39 @@
+/* change the whole theme of the website */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700,800");
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 22px;
+  font-weight: 300;
+  background-color: #333;
+  color: #bbb; }
+
+.primary-text {
+  color: #d2a92c; }
+
+/* landing page of my portfolio */
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 0 100%; } }
+
+.landing {
+  height: 600px;
+  width: 100%;
+  background-image: url(../img/bg.png);
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  -webkit-animation: animatedBackground 20s linear infinite; }
+
+.landing h1 {
+  font-weight: 100; }
+
+.landing .inner {
+  width: 800px; }
+
+.nav {
+  margin: 10px; }
+
+.nav a {
+  color: #fff;
+  font-size: 21px; }

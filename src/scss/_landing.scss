@@ -1,0 +1,21 @@
+/* landing page of my portfolio */
+
+// animate background, see https://davidwalsh.name/background-animation-css
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 0 100%; }
+}
+.landing {
+  height: 600px;
+  width: 100%;
+  background-image: url(../img/bg.png);
+  background-position: 0px 0px;
+	background-repeat: repeat;
+  -webkit-animation: animatedBackground 20s linear infinite;
+  h1 {
+    font-weight: 100;
+  }
+  .inner {
+    width: 800px;
+  }
+}
