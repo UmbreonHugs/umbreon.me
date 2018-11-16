@@ -59,6 +59,13 @@ body {
   border-bottom: 1px solid #d2a92c;
   padding: 10px 0 12px 0; }
 
+.card-title {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #d2a92c;
+  padding: 5px 0 12px 0; }
+
 .card-hover {
   opacity: 0;
   background: rgba(0, 0, 0, 0.7);
