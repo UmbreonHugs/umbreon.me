@@ -1,11 +1,13 @@
 /* change the whole theme of the website */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700,800");
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi");
 body {
   font-family: "Montserrat", sans-serif !important;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 300;
-  background-color: #333;
-  color: #bbb; }
+  background-color: #181818;
+  color: #aaa;
+  letter-spacing: 0.5px; }
 
 .primary-text {
   color: #d2a92c; }
@@ -18,7 +20,7 @@ body {
     background-position: 0 100%; } }
 
 .landing {
-  height: 600px;
+  height: 500px;
   width: 100%;
   background-image: url(../img/bg.png);
   background-position: 0px 0px;
@@ -31,9 +33,38 @@ body {
 .landing .inner {
   width: 800px; }
 
+.landing .social {
+  color: #fff;
+  font-size: 52px; }
+
 .nav {
   margin: 10px; }
 
 .nav a {
   color: #fff;
   font-size: 21px; }
+
+.card {
+  background-color: #242424; }
+
+.card:hover .card-hover {
+  opacity: 1; }
+
+.card-heading {
+  font-weight: 800;
+  color: #fff;
+  font-size: 44px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-bottom: 1px solid #d2a92c;
+  padding: 10px 0 12px 0; }
+
+.card-hover {
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  transition: .3s; }

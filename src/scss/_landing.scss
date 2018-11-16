@@ -6,7 +6,7 @@
 	to { background-position: 0 100%; }
 }
 .landing {
-  height: 600px;
+  height: 500px;
   width: 100%;
   background-image: url(../img/bg.png);
   background-position: 0px 0px;
@@ -18,4 +18,8 @@
   .inner {
     width: 800px;
   }
+	.social {
+		color: #fff;
+		font-size: 52px;
+	}
 }

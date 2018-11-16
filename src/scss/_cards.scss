@@ -1,0 +1,25 @@
+.card {
+  background-color: $card-color;
+}
+.card:hover .card-hover {
+  opacity: 1;
+}
+.card-heading {
+  font-weight: 800;
+  color: $link-color;
+  font-size: 44px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-bottom: 1px solid $primary;
+  padding: 10px 0 12px 0;
+}
+.card-hover {
+  opacity: 0;
+  background: rgba(0,0,0,0.7);
+  border-radius: 3px;
+      -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    transition:.3s;
+}

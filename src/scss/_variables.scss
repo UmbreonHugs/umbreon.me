@@ -3,11 +3,16 @@
 
 // import font
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+
 $font-family: "Montserrat", sans-serif;
-$font-size: 22px;
+$heading-font: "Reem Kufi", sans-serif;
+$font-size: 20px;
 
 // colors
-$bg-color: #333;
-$font-color: #bbb;
+$bg-color: #181818;
+$card-color: #242424;
+$border-color: #3f3f3f;
+$font-color: #aaa;
 $primary: #d2a92c;
 $link-color: #fff;
