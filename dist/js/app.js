@@ -27,6 +27,13 @@ const projects = [
     description: "Project for a tournament software, included admin panel, user authentication, team organization, registration, support tickets, and responsive design. Project was decomissioned.",
     skills: "Javascript, PHP, Bootstrap, HTML, CSS, MySQL, nginx",
     screenshots: ["https://placeimg.com/800/800/tech"]
+  },
+  {
+    id: 4,
+    name: "Memory Game",
+    description: "Memory matching game, coded in Vanilla Javascript",
+    skills: "Javascript, Bootstrap, HTML, CSS",
+    screenshots: ["https://placeimg.com/800/800/tech"]
   }
 ]
 let sortedProjects = [];
@@ -63,9 +70,8 @@ let showPopup = () => {
           <h5 class="modal-title" id="exampleModalLongTitle">${projectInfo.name}</h5>
         </div>
         <div class="modal-body">
-          <ul class="finished-stars">
-            **info**
-          </ul>
+          <span class="skill html">HTML</span> <span class="skill css">CSS</span> <span class="skill sass">SASS</span> <span class="skill react">SASS</span>
+          <p>${projectInfo.description}</p>
           <button type="button" class="btn btn-primary btn-lg" onclick="resetGame()" data-dismiss="modal">Play again</button>
         </div>
       </div>
