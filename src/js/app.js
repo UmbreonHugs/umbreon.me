@@ -10,7 +10,7 @@ const projects = [
     name: "Tracy Harbour",
     description: "Custom built interactive website. It includes a gallery, contact form, a fully searchable menu, and a clean and responsive layout.",
     skills: "React, Javascript, SASS, CSS, HTML, Docker, nginx",
-    screenshots: ["https://placeimg.com/800/800/tech"],
+    screenshots: ["https://umbreon.me/img/tracyharbour.png"],
     livePreview: "https://www.tracyharbour.com"
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     name: "Milano Pizza",
     description: "Custom built 1-page website, with a responsive menu, slideshow, and a backend menu editor.",
     skills: "HTML, CSS, Javascript, jQuery, Bootstrap, SASS, PHP, MySQL",
-    screenshots: ["https://placeimg.com/800/800/tech"],
+    screenshots: ["https://umbreon.me/img/milanopizza.png"],
     livePreview: "https://milanopizzatracyca.com/"
   },
   {
@@ -26,13 +26,27 @@ const projects = [
     name: "PROJECT: G-Tourneys",
     description: "Project for a tournament software, included admin panel, user authentication, team organization, registration, support tickets, and responsive design. Project was decomissioned.",
     skills: "Javascript, PHP, Bootstrap, HTML, CSS, MySQL, nginx",
-    screenshots: ["https://placeimg.com/800/800/tech"]
+    screenshots: ["https://umbreon.me/img/gtourneys.png"]
   },
   {
     id: 4,
     name: "Memory Game",
     description: "Memory matching game, coded in Vanilla Javascript",
     skills: "Javascript, Bootstrap, HTML, CSS",
+    screenshots: ["https://placeimg.com/800/800/tech"]
+  },
+  {
+    id: 5,
+    name: "Frogger",
+    description: "Frogger Arcade Game Clone, coded in Vanilla Javascript",
+    skills: "Javascript, Bootstrap, HTML, CSS",
+    screenshots: ["https://placeimg.com/800/800/tech"]
+  },
+  {
+    id: 6,
+    name: "Restaurant Reviews App",
+    description: "A small front-end application for a restaurant review website.",
+    skills: "Javascript, Bootstrap, HTML, CSS,, SASS",
     screenshots: ["https://placeimg.com/800/800/tech"]
   }
 ]

@@ -139,7 +139,7 @@ body::-webkit-scrollbar-thumb {
   border-color: #61dafb; }
 
 .js {
-  color: #fff;
+  color: #000;
   background-color: #f0db4f; }
 
 .js-button {
@@ -153,3 +153,19 @@ body::-webkit-scrollbar-thumb {
 .jquery-button {
   color: #0769ad;
   border-color: #0769ad; }
+
+.bootstrap {
+  color: #fff;
+  background-color: #7952b3; }
+
+.bootstrap-button {
+  color: #7952b3;
+  border-color: #7952b3; }
+
+.php {
+  color: #fff;
+  background-color: #8892BF; }
+
+.php-button {
+  color: #8892BF;
+  border-color: #8892BF; }
