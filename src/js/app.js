@@ -9,7 +9,7 @@ const projects = [
     id: 1,
     name: "Tracy Harbour",
     description: "Custom built interactive website. It includes a gallery, contact form, a fully searchable menu, and a clean and responsive layout.",
-    skills: "React, Javascript, SASS, CSS, HTML, Docker, nginx",
+    skills: "reactjs, Javascript, SASS, CSS, HTML, Docker, nginx",
     screenshots: ["https://umbreon.me/img/tracyharbour.png"],
     livePreview: "https://www.tracyharbour.com"
   },
