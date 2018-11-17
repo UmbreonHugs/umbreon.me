@@ -13,6 +13,10 @@ body {
 .primary-text {
   color: #d2a92c; }
 
+.lead {
+  font-size: 24px;
+  color: #fff; }
+
 /* lets make the website stand out~ */
 ::selection {
   background: #d2a92c;
@@ -98,6 +102,16 @@ body::-webkit-scrollbar-thumb {
 
 .modal-content {
   background-color: #181818; }
+
+.modal-header {
+  border-bottom: 0; }
+
+.modal-title {
+  font-weight: 800;
+  font-size: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 .skill {
   border-radius: 3px;

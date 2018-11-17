@@ -10,6 +10,10 @@ body {
 .primary-text {
   color: $primary;
 }
+.lead {
+  font-size: 24px;
+  color: #fff;
+}
 /* lets make the website stand out~ */
 ::selection {
   background: $primary;

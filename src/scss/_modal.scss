@@ -1,3 +1,13 @@
 .modal-content {
   background-color: $bg-color;
 }
+.modal-header {
+  border-bottom: 0;
+}
+.modal-title {
+    font-weight: 800;
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

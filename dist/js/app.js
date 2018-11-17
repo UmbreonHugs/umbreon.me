@@ -8,9 +8,10 @@ const projects = [
   {
     id: 1,
     name: "Tracy Harbour",
-    description: "Custom built interactive website. It includes a gallery, contact form, a fully searchable menu, and a clean and responsive layout.",
+    description: "Custom built interactive website. It includes a gallery, contact form, a fully searchable menu, and a clean layout.",
+    longDescription: "This website was built for a restaurant that is well known for serving the best Fish and Chips in town! I recently rebuilt this website and implemented some amazing features, such as interactive searchable menu, a new press page, a instagram gallery API, and a responsive clean layout that is accessable on any device, and any machine. This was also the first time I have ever used React on a project.",
     skills: "reactjs, Javascript, SASS, CSS, HTML, Docker, nginx",
-    screenshots: ["https://umbreon.me/img/tracyharbour.png"],
+    screenshots: ["img/projects/tracyharbour1.png"],
     livePreview: "https://www.tracyharbour.com"
   },
   {
@@ -18,15 +19,15 @@ const projects = [
     name: "Milano Pizza",
     description: "Custom built 1-page website, with a responsive menu, slideshow, and a backend menu editor.",
     skills: "HTML, CSS, Javascript, jQuery, Bootstrap, SASS, PHP, MySQL",
-    screenshots: ["https://umbreon.me/img/milanopizza.png"],
+    screenshots: ["img/projects/milano1.png"],
     livePreview: "https://milanopizzatracyca.com/"
   },
   {
     id: 3,
     name: "PROJECT: G-Tourneys",
-    description: "Project for a tournament software, included admin panel, user authentication, team organization, registration, support tickets, and responsive design. Project was decomissioned.",
+    description: "Project for a tournament software, included admin panel, user authentication, registration, support tickets, and responsive design.",
     skills: "Javascript, PHP, Bootstrap, HTML, CSS, MySQL, nginx",
-    screenshots: ["https://umbreon.me/img/gtourneys.png"]
+    screenshots: ["img/projects/gtourneys1.png"]
   },
   {
     id: 4,
@@ -50,6 +51,7 @@ const projects = [
     screenshots: ["https://placeimg.com/800/800/tech"]
   }
 ]
+
 let sortedProjects = [];
 let projectInfo = {};
 const listProjectID = document.getElementById("list-projects");
@@ -84,8 +86,10 @@ let showPopup = () => {
           <h5 class="modal-title" id="exampleModalLongTitle">${projectInfo.name}</h5>
         </div>
         <div class="modal-body">
+          <img src="${projectInfo.screenshots[0]}" class="img-fluid rounded col-md-4" />
           <span class="skill html">HTML</span> <span class="skill css">CSS</span> <span class="skill sass">SASS</span> <span class="skill react">SASS</span>
-          <p>${projectInfo.description}</p>
+          <p class="lead">${projectInfo.description}</p>
+          <p>${projectInfo.longDescription}</p>
           <button type="button" class="btn btn-primary btn-lg" onclick="resetGame()" data-dismiss="modal">Play again</button>
         </div>
       </div>

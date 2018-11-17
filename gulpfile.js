@@ -28,16 +28,23 @@ gulp.task('img', function(done) {
     .pipe(gulp.dest('dist/img/'));
   done();
 })
+gulp.task('imgprojects', function(done) {
+  return gulp.src('src/img/projects/*.png')
+    .pipe(gulp.dest('dist/img/projects'));
+  done();
+})
 // watch the files for changes
 gulp.task('watch', function (done) {
   gulp.watch('src/scss/*.scss', ['styles', 'html']);
   gulp.watch('src/*.html', ['html']);
   gulp.watch('src/js/*.js', ['js']);
   gulp.watch('src/img/*.png', ['img']);
+  gulp.watch('src/img/projects/*.png', ['imgprojects']);
   gulp.watch('dist/js/*.js').on('change', browserSync.reload);
   gulp.watch('dist/*.html').on('change', browserSync.reload);
   gulp.watch('dist/css/*.css').on('change', browserSync.reload);
   gulp.watch('dist/img/*.png').on('change', browserSync.reload);
+  gulp.watch('dist/img/projects/*.png').on('change', browserSync.reload);
     browserSync.init({
     server: "./dist",
     port: 8000
