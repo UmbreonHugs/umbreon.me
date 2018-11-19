@@ -53,14 +53,16 @@ const projects = [
     name: "Restaurant Reviews App",
     description: "A small front-end application for a restaurant review website.",
     skills: "Javascript, HTML, CSS, SASS",
-    screenshots: ["https://placeimg.com/800/800/tech"]
+    screenshots: ["img/projects/restaurant1.png", "img/projects/restaurant2.png", "img/projects/restaurant3.png"]
   },
   {
     id: 7,
     name: "MyReads Book Tracking App",
     description: "A small front-end application to track the books you have read, and books you are currently reading",
     skills: "Javascript, ReactJS, HTML, CSS, SASS",
-    screenshots: ["https://placeimg.com/800/800/tech"]
+    screenshots: ["https://placeimg.com/800/800/tech"],
+    livePreview: "https://umbreonhugs.github.io/myreads-live/",
+    githubLink: "https://github.com/UmbreonHugs/myreads-book-tracking-app"
   },
   {
     id: 8,
