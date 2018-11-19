@@ -7,7 +7,7 @@ body {
   font-weight: 300;
   background: #080808;
   background: linear-gradient(90deg, #080808 0%, #131313 35%, #222222 100%);
-  color: #aaa;
+  color: #bbb;
   letter-spacing: 0.5px; }
 
 .primary-text {
@@ -16,6 +16,9 @@ body {
 .lead {
   font-size: 24px;
   color: #fff; }
+
+hr {
+  border-color: #444; }
 
 /* lets make the website stand out~ */
 ::selection {
@@ -104,14 +107,20 @@ body::-webkit-scrollbar-thumb {
   background-color: #181818; }
 
 .modal-header {
-  border-bottom: 0; }
+  border-bottom: 0;
+  text-align: center;
+  display: block; }
 
 .modal-title {
   font-weight: 800;
-  font-size: 35px;
+  font-size: 45px;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px; }
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 990px; } }
 
 .skill {
   border-radius: 3px;

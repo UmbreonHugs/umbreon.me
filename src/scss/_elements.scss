@@ -14,6 +14,9 @@ body {
   font-size: 24px;
   color: #fff;
 }
+hr {
+  border-color: #444;
+}
 /* lets make the website stand out~ */
 ::selection {
   background: $primary;

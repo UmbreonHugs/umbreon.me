@@ -3,11 +3,18 @@
 }
 .modal-header {
   border-bottom: 0;
+  text-align: center;
+  display: block;
 }
 .modal-title {
     font-weight: 800;
-    font-size: 35px;
+    font-size: 45px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+@media (min-width: 992px) {
+.modal-lg {
+    max-width: 990px;
+}
 }
