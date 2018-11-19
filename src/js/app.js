@@ -27,16 +27,16 @@ const projects = [
     id: 3,
     name: "PROJECT: G-Tourneys",
     description: "Project for a tournament software, included admin panel, user authentication, registration, support tickets, and responsive design.",
-    longDescription: "Long story, but i'll try to keep it as minimal as possible. This was one of my biggest projects I have ever faced. I ran a gaming community back in 2015, and I had to develop a tournament software for my members. I started by building a tournament website that would integrate with my forum software, and using the latest web technologies at that time. I was using PHP, Bootstrap 3, MySQL, and along the way, I was learning jQuery UI and Laravel Framework for PHP. I was able to implement a registration page, a team control panel (where users can manage, remove, and add team members), a staff control panel (where tournaments are created, and modified), and a support ticket system. Unfortunately, I was not able to finish the project in time due to the lack of funding and interest in the community, therefore I decided to decommission it. Due to legal reasons, I am not allowed to release any source code of the project.",
-    skills: "Javascript, PHP, Bootstrap, HTML, CSS, MySQL, Nginx",
+    longDescription: "Long story, but i'll try to keep it as minimal as possible. This was one of my biggest projects I have ever faced. I was an admin of a gaming community back in 2015, and I had to develop a system for running tourneys in our community. I started by building a tournament website that would integrate with my forum software, and using the latest web technologies at that time. I was using PHP, Bootstrap 3, MySQL, and along the way, I was learning jQuery UI and Laravel Framework for PHP. I was able to implement a registration page, a team control panel (where users can manage, remove, and add team members), a staff control panel (where tournaments are created, and modified), and a support ticket system. Unfortunately, I was not able to finish the project in time due to the lack of funding and interest in the community, therefore I decided to decommission it. Due to legal reasons, I am not allowed to release any source code of the project.",
+    skills: "Javascript, PHP, Bootstrap, HTML, CSS, MySQL, JQuery, Nginx",
     screenshots: ["img/projects/gtourneys1.png", "img/projects/gtourneys2.png", "img/projects/gtourneys3.png"]
   },
   {
     id: 4,
     name: "Memory Game",
-    description: "Memory matching game, coded in Vanilla Javascript",
+    description: "Memory matching game, coded in Vanilla Javascript and a bit of jQuery",
     longDescription: "This was my first project for Udacity's Front End Web Developer Nanodegree. ",
-    skills: "Javascript, Bootstrap, HTML, CSS",
+    skills: "Javascript, Bootstrap, HTML, CSS, JQuery",
     screenshots: ["img/projects/memory1.png", "img/projects/memory2.png", "img/projects/memory3.png"],
     playNow: "https://umbreonhugs.github.io/memory_game/",
     githubLink: "https://github.com/UmbreonHugs/memory_game"
@@ -52,15 +52,15 @@ const projects = [
     id: 6,
     name: "Restaurant Reviews App",
     description: "A small front-end application for a restaurant review website.",
-    skills: "Javascript, HTML, CSS, SASS",
+    skills: "Javascript, HTML, CSS, SASS, Nodejs",
     screenshots: ["img/projects/restaurant1.png", "img/projects/restaurant2.png", "img/projects/restaurant3.png"]
   },
   {
     id: 7,
     name: "MyReads Book Tracking App",
     description: "A small front-end application to track the books you have read, and books you are currently reading",
-    skills: "Javascript, ReactJS, HTML, CSS, SASS",
-    screenshots: ["https://placeimg.com/800/800/tech"],
+    skills: "Javascript, ReactJS, HTML, CSS, SASS, Nodejs",
+    screenshots: ["img/projects/myreads1.png", "img/projects/myreads2.png", "img/projects/myreads3.png"],
     livePreview: "https://umbreonhugs.github.io/myreads-live/",
     githubLink: "https://github.com/UmbreonHugs/myreads-book-tracking-app"
   },
@@ -69,14 +69,17 @@ const projects = [
     name: "Neighborhood Map",
     description: "An app that will help you find the best places to eat in Downtown Tracy!",
     skills: "Javascript, ReactJS, HTML, CSS, SASS, REST API",
-    screenshots: ["https://placeimg.com/800/800/tech"]
+    screenshots: ["img/projects/map1.png", "img/projects/map2.png", "img/projects/map3.png"],
+    livePreview: "https://umbreonhugs.github.io/neighborhood-map-live/",
+    githubLink: "https://github.com/UmbreonHugs/Neighborhood-Map"
   }
 ]
 
 let sortedProjects = [];
 let projectInfo = {};
 const listProjectID = document.getElementById("list-projects");
-let sorted = false;
+const resetButton = document.getElementById("resetButton");
+
 let listAllProjects = () => {
     listProjectID.innerHTML = projects.map(function(project){
 
@@ -170,7 +173,7 @@ let showPopup = () => {
   $(modalHTML).modal();
 }
 let sortByTag = (t) => {
-  sorted = true;
+  resetButton.innerHTML = "Reset Button";
   // push the sorted results into its array
   let filteredProjects = projects.filter(project => project.skills.includes(t));
   listProjectID.innerHTML = filteredProjects.map(function(project){
@@ -180,6 +183,7 @@ let sortByTag = (t) => {
               <div class="card-img-overlay card-hover">
                 <h5 class="card-title">${project.name}</h5>
                 <p class="card-text">${project.description}</p>
+                <button type="button" class="btn btn-primary btn-lg btn-block" onclick="triggerPopup(${project.id})">Learn More</button>
               </div>
             </div>
           </div>`;
