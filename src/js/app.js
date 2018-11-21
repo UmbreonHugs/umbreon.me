@@ -101,6 +101,10 @@ let triggerPopup = (id) => {
   projectInfo = popupProject;
   showPopup()
 }
+let resetFilters = () => {
+  listAllProjects();
+  resetButton.innerHTML = "";
+}
 let showPopup = () => {
   // we need to check the buttons
   let livePreview, playNow, githubLink;
@@ -173,7 +177,7 @@ let showPopup = () => {
   $(modalHTML).modal();
 }
 let sortByTag = (t) => {
-  resetButton.innerHTML = "Reset Button";
+  resetButton.innerHTML = `<button type="button" class="btn btn-sm btn-danger" onClick="resetFilters()">Reset Filters</button>`;
   // push the sorted results into its array
   let filteredProjects = projects.filter(project => project.skills.includes(t));
   listProjectID.innerHTML = filteredProjects.map(function(project){

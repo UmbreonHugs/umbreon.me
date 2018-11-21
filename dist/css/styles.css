@@ -17,6 +17,13 @@ body {
   font-size: 24px;
   color: #fff; }
 
+a {
+  color: #fff; }
+
+a:hover {
+  color: #fff;
+  text-decoration: underline; }
+
 hr {
   border-color: #444; }
 
@@ -38,6 +45,10 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: #d2a92c; }
+
+@media (max-width: 602px) {
+  .landing h1 {
+    font-size: 30px; } }
 
 /* landing page of my portfolio */
 @keyframes animatedBackground {
@@ -224,3 +235,7 @@ body::-webkit-scrollbar-thumb {
 .mysql-button {
   color: #4479a1;
   border-color: #4479a1; }
+
+.footer {
+  background-color: #222;
+  padding: 30px; }
