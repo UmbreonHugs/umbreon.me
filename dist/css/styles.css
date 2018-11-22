@@ -27,6 +27,19 @@ a:hover {
 hr {
   border-color: #444; }
 
+.btn-primary {
+  color: #fff;
+  background-color: #d2a92c;
+  border-color: #d2a92c;
+  font-weight: 600;
+  letter-spacing: 1px; }
+
+.btn-primary:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+  font-weight: 600; }
+
 /* lets make the website stand out~ */
 ::selection {
   background: #d2a92c;
@@ -74,6 +87,9 @@ body::-webkit-scrollbar-thumb {
 .landing .social {
   color: #fff;
   font-size: 52px; }
+
+.landing .social a:hover {
+  color: #d2a92c; }
 
 .nav {
   margin: 10px; }

@@ -24,6 +24,19 @@ a:hover {
 hr {
   border-color: #444;
 }
+.btn-primary {
+  color: #fff;
+  background-color: $primary;
+  border-color: $primary;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.btn-primary:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+  font-weight: 600;
+}
 /* lets make the website stand out~ */
 ::selection {
   background: $primary;

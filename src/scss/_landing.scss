@@ -21,5 +21,8 @@
 	.social {
 		color: #fff;
 		font-size: 52px;
+		a:hover {
+			color: $primary;
+		}
 	}
 }

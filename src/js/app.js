@@ -45,7 +45,7 @@ const projects = [
     id: 5,
     name: "Frogger",
     description: "Frogger Arcade Game Clone, coded in Vanilla Javascript",
-    longDescription: "This is an Arcade Game Clone of Frogger, coded in Javascript, and styled with bootstrap. This is part of Udacity's Front End Web Developer Nanodegree. My goal for this project was to fully understand the concept of Object Oriented Javascript Programming. This style of programming plays a huge factor in todays standards, especially with modern frameworks like React or Angular.",
+    longDescription: "This is an Arcade Game Clone of Frogger, coded in Javascript, and styled with bootstrap. This is part of Udacity's Front End Web Developer Nanodegree. My goal for this project was to fully understand the concept of Object Oriented Javascript Programming. This style of programming plays a huge factor in web development, especially with modern frameworks like React or Angular.",
     skills: "Javascript, Bootstrap, HTML, CSS",
     screenshots: ["img/projects/frogger1.png", "img/projects/frogger2.png", "img/projects/frogger3.png"]
   },
@@ -71,7 +71,7 @@ const projects = [
     id: 8,
     name: "Neighborhood Map",
     description: "An app that will help you find the best places to eat in Downtown Tracy!",
-    longDescription: "This is my neighborhood map with all the awesome places to eat in Downtown Tracy! Coded in React, and uses the LeafletJS for the maps, and the Foursquare API to gather data about each restaurant. It is also responsive, and accessable on all devices."
+    longDescription: "This is my neighborhood map with all the awesome places to eat in Downtown Tracy! Coded in React, and uses the LeafletJS for the maps, and the Foursquare API to gather data about each restaurant. It is also responsive, and accessable on all devices.",
     skills: "Javascript, ReactJS, HTML, CSS, SASS, REST API",
     screenshots: ["img/projects/map1.png", "img/projects/map2.png", "img/projects/map3.png"],
     livePreview: "https://umbreonhugs.github.io/neighborhood-map-live/",
