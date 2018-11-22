@@ -35,7 +35,7 @@ const projects = [
     id: 4,
     name: "Memory Game",
     description: "Memory matching game, coded in Vanilla Javascript and a bit of jQuery",
-    longDescription: "This was my first project for Udacity's Front End Web Developer Nanodegree. ",
+    longDescription: "This was my first Javascript project for Udacity's Front End Web Developer Nanodegree. ",
     skills: "Javascript, Bootstrap, HTML, CSS, JQuery",
     screenshots: ["img/projects/memory1.png", "img/projects/memory2.png", "img/projects/memory3.png"],
     playNow: "https://umbreonhugs.github.io/memory_game/",
@@ -45,6 +45,7 @@ const projects = [
     id: 5,
     name: "Frogger",
     description: "Frogger Arcade Game Clone, coded in Vanilla Javascript",
+    longDescription: "This is an Arcade Game Clone of Frogger, coded in Javascript, and styled with bootstrap. This is part of Udacity's Front End Web Developer Nanodegree. My goal for this project was to fully understand the concept of Object Oriented Javascript Programming. This style of programming plays a huge factor in todays standards, especially with modern frameworks like React or Angular.",
     skills: "Javascript, Bootstrap, HTML, CSS",
     screenshots: ["img/projects/frogger1.png", "img/projects/frogger2.png", "img/projects/frogger3.png"]
   },
@@ -52,6 +53,7 @@ const projects = [
     id: 6,
     name: "Restaurant Reviews App",
     description: "A small front-end application for a restaurant review website.",
+    longDescription: "This is a small application that was provided by Udacity and my goal was to make the website respsonsive, clean, and accessable. I decided to rebuild the theme and its layout, and gave it a nice modern look, along with the capability of being accessable.",
     skills: "Javascript, HTML, CSS, SASS, Nodejs",
     screenshots: ["img/projects/restaurant1.png", "img/projects/restaurant2.png", "img/projects/restaurant3.png"]
   },
@@ -59,6 +61,7 @@ const projects = [
     id: 7,
     name: "MyReads Book Tracking App",
     description: "A small front-end application to track the books you have read, and books you are currently reading",
+    longDescription: "This is my first ReactJS application I have ever coded, with the help from the awesome folks at Udacity. The purpose of this project was to understand how ReactJS work, and the lifecycle of the framework (from state management, to rendering), and the use of states to control and manipulate the content on the app. This project was a huge step forward for me on learning React.",
     skills: "Javascript, ReactJS, HTML, CSS, SASS, Nodejs",
     screenshots: ["img/projects/myreads1.png", "img/projects/myreads2.png", "img/projects/myreads3.png"],
     livePreview: "https://umbreonhugs.github.io/myreads-live/",
@@ -68,6 +71,7 @@ const projects = [
     id: 8,
     name: "Neighborhood Map",
     description: "An app that will help you find the best places to eat in Downtown Tracy!",
+    longDescription: "This is my neighborhood map with all the awesome places to eat in Downtown Tracy! Coded in React, and uses the LeafletJS for the maps, and the Foursquare API to gather data about each restaurant. It is also responsive, and accessable on all devices."
     skills: "Javascript, ReactJS, HTML, CSS, SASS, REST API",
     screenshots: ["img/projects/map1.png", "img/projects/map2.png", "img/projects/map3.png"],
     livePreview: "https://umbreonhugs.github.io/neighborhood-map-live/",
