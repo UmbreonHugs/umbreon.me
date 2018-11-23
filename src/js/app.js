@@ -71,7 +71,7 @@ const projects = [
     id: 8,
     name: "Neighborhood Map",
     description: "An app that will help you find the best places to eat in Downtown Tracy!",
-    longDescription: "This is my neighborhood map with all the awesome places to eat in Downtown Tracy! Coded in React, and uses the LeafletJS for the maps, and the Foursquare API to gather data about each restaurant. It is also responsive, and accessable on all devices.",
+    longDescription: "This is my neighborhood map with all the awesome places to eat in Downtown Tracy! Coded in React, uses the LeafletJS for the maps, and the Foursquare API to gather data about each restaurant, including ratings, contact numbers, images, and more! It is also responsive, and accessible on all devices.",
     skills: "Javascript, ReactJS, HTML, CSS, SASS, REST API",
     screenshots: ["img/projects/map1.png", "img/projects/map2.png", "img/projects/map3.png"],
     livePreview: "https://umbreonhugs.github.io/neighborhood-map-live/",
