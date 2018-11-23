@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 602px) {
   .landing h1 {
-    font-size: 30px; } }
+    font-size: 24px; } }
 
 /* landing page of my portfolio */
 @keyframes animatedBackground {
@@ -71,7 +71,7 @@ body::-webkit-scrollbar-thumb {
     background-position: 0 100%; } }
 
 .landing {
-  height: 500px;
+  height: 580px;
   width: 100%;
   background-image: url(../img/bg.png);
   background-position: 0px 0px;
@@ -90,6 +90,9 @@ body::-webkit-scrollbar-thumb {
 
 .landing .social a:hover {
   color: #d2a92c; }
+
+.landing .umbreon {
+  height: 300px; }
 
 .nav {
   margin: 10px; }

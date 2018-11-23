@@ -53,7 +53,7 @@ const projects = [
     id: 6,
     name: "Restaurant Reviews App",
     description: "A small front-end application for a restaurant review website.",
-    longDescription: "This is a small application that was provided by Udacity and my goal was to make the website respsonsive, clean, and accessable. I decided to rebuild the theme and its layout, and gave it a nice modern look, along with the capability of being accessable.",
+    longDescription: "This is a small application that was provided by Udacity and my goal was to make the website respsonsive, clean, and accessible. I decided to rebuild the theme and its layout, and gave it a nice modern look, along with the capability of being accessible.",
     skills: "Javascript, HTML, CSS, SASS, Nodejs",
     screenshots: ["img/projects/restaurant1.png", "img/projects/restaurant2.png", "img/projects/restaurant3.png"]
   },
