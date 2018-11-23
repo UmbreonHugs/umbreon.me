@@ -35,7 +35,7 @@ const projects = [
     id: 4,
     name: "Memory Game",
     description: "Memory matching game, coded in Vanilla Javascript and a bit of jQuery",
-    longDescription: "This was my first Javascript project for Udacity's Front End Web Developer Nanodegree. ",
+    longDescription: "This was my first Javascript project for Udacity's Front End Web Developer Nanodegree. In this project, I learnned the fundamentals of Javascript and the importance it has on the web.",
     skills: "Javascript, Bootstrap, HTML, CSS, JQuery",
     screenshots: ["img/projects/memory1.png", "img/projects/memory2.png", "img/projects/memory3.png"],
     playNow: "https://umbreonhugs.github.io/memory_game/",
@@ -47,7 +47,9 @@ const projects = [
     description: "Frogger Arcade Game Clone, coded in Vanilla Javascript",
     longDescription: "This is an Arcade Game Clone of Frogger, coded in Javascript, and styled with bootstrap. This is part of Udacity's Front End Web Developer Nanodegree. My goal for this project was to fully understand the concept of Object Oriented Javascript Programming. This style of programming plays a huge factor in web development, especially with modern frameworks like React or Angular.",
     skills: "Javascript, Bootstrap, HTML, CSS",
-    screenshots: ["img/projects/frogger1.png", "img/projects/frogger2.png", "img/projects/frogger3.png"]
+    screenshots: ["img/projects/frogger1.png", "img/projects/frogger2.png", "img/projects/frogger3.png"],
+    githubLink: "https://github.com/UmbreonHugs/arcade-game-clone",
+    playNow: "https://umbreonhugs.github.io/arcade-game-clone/"
   },
   {
     id: 6,
@@ -55,7 +57,8 @@ const projects = [
     description: "A small front-end application for a restaurant review website.",
     longDescription: "This is a small application that was provided by Udacity and my goal was to make the website respsonsive, clean, and accessible. I decided to rebuild the theme and its layout, and gave it a nice modern look, along with the capability of being accessible.",
     skills: "Javascript, HTML, CSS, SASS, Nodejs",
-    screenshots: ["img/projects/restaurant1.png", "img/projects/restaurant2.png", "img/projects/restaurant3.png"]
+    screenshots: ["img/projects/restaurant1.png", "img/projects/restaurant2.png", "img/projects/restaurant3.png"],
+    githubLink: "https://github.com/UmbreonHugs/restaurant-reviews-app"
   },
   {
     id: 7,
@@ -89,7 +92,7 @@ let listAllProjects = () => {
 
     let html = `<div class="col-md-4 col-sm-6 col-xs-12 mb-4">
               <div class="card text-white">
-                <img class="card-img" src="${project.screenshots[0]}" alt="Card image">
+                <img class="card-img" src="${project.screenshots[0]}" alt="${project.name}">
                 <div class="card-img-overlay card-hover">
                   <h5 class="card-title">${project.name}</h5>
                   <p class="card-text">${project.description}</p>
@@ -132,7 +135,7 @@ let showPopup = () => {
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header text-center">
-          <h5 class="modal-title" id="exampleModalLongTitle">${projectInfo.name}</h5>
+          <h5 class="modal-title">${projectInfo.name}</h5>
         </div>
         <div class="modal-body">
           <div class="row">
@@ -166,6 +169,7 @@ let showPopup = () => {
             ${livePreview}
             ${playNow}
             ${githubLink}
+            <button type="button" class="btn btn-danger btn-lg btn-block mt-2" data-dismiss="modal" aria-label="Close">Close Window</button>
             </div>
             <div class="col-md-7">
           <p class="lead">${projectInfo.description}</p>
@@ -187,7 +191,7 @@ let sortByTag = (t) => {
   listProjectID.innerHTML = filteredProjects.map(function(project){
   let html = `<div class="col-md-4 col-sm-6 col-xs-12 mb-4">
             <div class="card text-white">
-              <img class="card-img" src="${project.screenshots[0]}" alt="Card image">
+              <img class="card-img" src="${project.screenshots[0]}" alt="${project.name}">
               <div class="card-img-overlay card-hover">
                 <h5 class="card-title">${project.name}</h5>
                 <p class="card-text">${project.description}</p>
