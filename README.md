@@ -1,4 +1,6 @@
 # umbreon.me
 Official repo for my portfolio website, umbreon.me
-v1.0
+## v1.0
 - Official Deployment on the website
+
+## v1.1
