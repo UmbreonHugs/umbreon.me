@@ -1,5 +1,8 @@
 # umbreon.me
-Official repo for my portfolio website, umbreon.me
+Official repo for my portfolio website, umbreon.me.
+
+Coded in Bootstrap, HTML, SASS/SCSS, and Vanilla Javascript. If there are any typos or errors, feel free to make a pull request!
+
 ## v1.0
 - Official Deployment on the website
 
