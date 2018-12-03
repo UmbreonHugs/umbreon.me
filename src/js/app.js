@@ -190,7 +190,7 @@ let sortByTag = (t) => {
   let filteredProjects = projects.filter(project => project.skills.includes(t));
   listProjectID.innerHTML = filteredProjects.map(function(project){
   let html = `<div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-            <div class="card text-white">
+            <div class="card text-white" tabindex=0>
               <img class="card-img" src="${project.screenshots[0]}" alt="${project.name}">
               <div class="card-img-overlay card-hover">
                 <h5 class="card-title">${project.name}</h5>
