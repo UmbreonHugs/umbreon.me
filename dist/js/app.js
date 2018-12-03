@@ -91,7 +91,7 @@ let listAllProjects = () => {
     listProjectID.innerHTML = projects.map(function(project){
 
     let html = `<div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-              <div class="card text-white">
+              <div class="card text-white" tabindex=0>
                 <img class="card-img" src="${project.screenshots[0]}" alt="${project.name}">
                 <div class="card-img-overlay card-hover">
                   <h5 class="card-title">${project.name}</h5>
@@ -148,13 +148,13 @@ let showPopup = () => {
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="${projectInfo.screenshots[0]}" alt="First slide">
+                  <img class="d-block w-100" src="${projectInfo.screenshots[0]}" alt="First screenshot">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="${projectInfo.screenshots[1]}" alt="Second slide">
+                  <img class="d-block w-100" src="${projectInfo.screenshots[1]}" alt="Second screenshot">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="${projectInfo.screenshots[2]}" alt="Third slide">
+                  <img class="d-block w-100" src="${projectInfo.screenshots[2]}" alt="Third screenshot">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carousel-show-${projectInfo.id}" role="button" data-slide="prev">

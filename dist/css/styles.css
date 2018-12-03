@@ -107,6 +107,13 @@ body::-webkit-scrollbar-thumb {
 .card:hover .card-hover {
   opacity: 1; }
 
+.card:focus-within .card-hover {
+  opacity: 1; }
+
+.card:focus .card-hover {
+  outline: 1px solid blue;
+  opacity: 1; }
+
 .card-heading {
   font-weight: 800;
   color: #fff;
