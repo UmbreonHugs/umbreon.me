@@ -9,9 +9,9 @@ const projects = [
     id: 1,
     name: "Tracy Harbour",
     description: "Custom built interactive website. It includes a gallery, contact form, a fully searchable menu, and a clean layout.",
-    longDescription: "This website was built for a restaurant that is well known for serving the best Fish and Chips in town! I recently rebuilt this website and implemented some amazing features, such as interactive searchable menu, a new press page, a instagram gallery API, and a responsive clean layout that is accessable on any device, and any machine. This was also the first time I have ever used React on a project.",
+    longDescription: "<p>This website was built for a restaurant that is well known for serving the best Fish and Chips in town! I recently rebuilt this website and implemented some amazing features, such as interactive searchable menu using React.JS, a press/blog section, and a responsive clean layout that is accessable on any device, and any machine. For the backend CMS, I use KeystoneJS (which is powered by ExpressJS) and NodeJS.</p><p>What makes this website unique is that it comes with a interactive menu, powered by React. I used KeystoneJS to output the whole menu in a JSON array, and then used ReactJS to organize, search and sort the data from the JSON array, as well as providing the template to display the menu items in a clean and orderly fasion.</p> <p>This was also the first time I have ever used KeystoneJS on my project (and I instantly fell in love with it!). KeystoneJS is a open source CMS framework for developing database-driven websites built on Express and MongoDB. Unlike other CMS, Keystones offers me complete control of my code, while providing a framework to begin with. KeystoneJS uses a MVC (Model-View-Controller) pattern, which makes development faster, while keeping the code clean.</p> <p>Overall, this was probably the best project I have worked on so far. I have learned so much from this project alone, and I would love to do another restaurant website project in the near future :)</p>",
     skills: "ReactJS, Javascript, SASS, CSS, HTML, Docker, Nginx",
-    screenshots: ["img/projects/tracyharbour1.png", "img/projects/tracyharbour1.png", "img/projects/tracyharbour1.png"],
+    screenshots: ["img/projects/tracyharbour1.png", "img/projects/tracyharbour2.png", "img/projects/tracyharbour3.png"],
     livePreview: "https://www.tracyharbour.com"
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     id: 3,
     name: "PROJECT: G-Tourneys",
     description: "Project for a tournament software, included admin panel, user authentication, registration, support tickets, and responsive design.",
-    longDescription: "Long story, but i'll try to keep it as minimal as possible. This was one of my biggest projects I have ever faced. I was an admin of a gaming community back in 2015, and I had to develop a system for running tourneys in our community. I started by building a tournament website that would integrate with my forum software, and using the latest web technologies at that time. I was using PHP, Bootstrap 3, MySQL, and along the way, I was learning jQuery UI and Laravel Framework for PHP. I was able to implement a registration page, a team control panel (where users can manage, remove, and add team members), a staff control panel (where tournaments are created, and modified), and a support ticket system. Unfortunately, I was not able to finish the project in time due to the lack of funding and interest in the community, therefore I decided to decommission it. Due to legal reasons, I am not allowed to release any source code of the project.",
+    longDescription: "Long story, but I wll try to keep it as minimal as possible. This was one of my biggest projects I have faced. I was an admin of a gaming community back in 2015, and I had to develop a system for running tourneys in our community. I started by building a tournament website that would integrate with my forum software, and using the latest web technologies at that time. I was using PHP, Bootstrap 3, MySQL, and along the way, I was learning jQuery UI and Laravel Framework for PHP. I was able to implement a registration page, a team control panel (where users can manage, remove, and add team members), a staff control panel (where tournaments are created, and modified), and a support ticket system. Unfortunately, I was not able to finish the project in time due to the lack of funding and interest in the community, therefore I decided to decommission it. Due to legal reasons, I am not allowed to release any source code of the project.",
     skills: "Javascript, PHP, Bootstrap, HTML, CSS, MySQL, JQuery, Nginx",
     screenshots: ["img/projects/gtourneys1.png", "img/projects/gtourneys2.png", "img/projects/gtourneys3.png"]
   },
@@ -35,7 +35,7 @@ const projects = [
     id: 4,
     name: "Memory Game",
     description: "Memory matching game, coded in Vanilla Javascript and a bit of jQuery",
-    longDescription: "This was my first Javascript project for Udacity's Front End Web Developer Nanodegree. In this project, I learnned the fundamentals of Javascript and the importance it has on the web.",
+    longDescription: "This was my first Javascript project for Udacity's Front End Web Developer Nanodegree. In this project, I learned the fundamentals of Javascript and the importance it has on the web.",
     skills: "Javascript, Bootstrap, HTML, CSS, JQuery",
     screenshots: ["img/projects/memory1.png", "img/projects/memory2.png", "img/projects/memory3.png"],
     playNow: "https://umbreonhugs.github.io/memory_game/",
@@ -64,7 +64,7 @@ const projects = [
     id: 7,
     name: "MyReads Book Tracking App",
     description: "A small front-end application to track the books you have read, and books you are currently reading",
-    longDescription: "This is my first ReactJS application I have ever coded, with the help from the awesome folks at Udacity. The purpose of this project was to understand how ReactJS work, and the lifecycle of the framework (from state management, to rendering), and the use of states to control and manipulate the content on the app. This project was a huge step forward for me on learning React.",
+    longDescription: "This is my first ReactJS application I have coded, with help from the awesome folks at Udacity. The purpose of this project was to understand how ReactJS works, its lifecycle (from state management, to rendering), and the use of states to control and manipulate the content on the app. This project was a huge step forward for me on learning React.",
     skills: "Javascript, ReactJS, HTML, CSS, SASS, Nodejs",
     screenshots: ["img/projects/myreads1.png", "img/projects/myreads2.png", "img/projects/myreads3.png"],
     livePreview: "https://umbreonhugs.github.io/myreads-live/",
